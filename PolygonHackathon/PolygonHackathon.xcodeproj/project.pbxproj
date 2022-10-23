@@ -16,6 +16,27 @@
 		8012EC8B290404FD00114A89 /* PolygonHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012EC8A290404FD00114A89 /* PolygonHackathonTests.swift */; };
 		8012EC95290404FD00114A89 /* PolygonHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012EC94290404FD00114A89 /* PolygonHackathonUITests.swift */; };
 		8012EC97290404FD00114A89 /* PolygonHackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012EC96290404FD00114A89 /* PolygonHackathonUITestsLaunchTests.swift */; };
+		8012ECA52904056F00114A89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECA42904056F00114A89 /* HomeViewController.swift */; };
+		8012ECA82904081200114A89 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECA72904081200114A89 /* Extensions.swift */; };
+		8012ECAB2904157100114A89 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECAA2904157100114A89 /* TabBarController.swift */; };
+		8012ECAD290415EC00114A89 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECAC290415EC00114A89 /* TicketsViewController.swift */; };
+		8012ECAF290415F400114A89 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECAE290415F400114A89 /* AccountViewController.swift */; };
+		8012ECB52904209100114A89 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECB42904209100114A89 /* EventViewController.swift */; };
+		8012ECB7290420BC00114A89 /* UpcomingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECB6290420BC00114A89 /* UpcomingCell.swift */; };
+		8012ECB9290427BD00114A89 /* FeaturedEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECB8290427BD00114A89 /* FeaturedEventView.swift */; };
+		8012ECBB2904349E00114A89 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECBA2904349E00114A89 /* EventCell.swift */; };
+		8012ECBE290437DC00114A89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECBD290437DC00114A89 /* LoginViewController.swift */; };
+		8012ECC329043B5D00114A89 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECC229043B5D00114A89 /* TopBarView.swift */; };
+		8012ECCA29046A4600114A89 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECC929046A4600114A89 /* InfoView.swift */; };
+		8012ECCF2904816400114A89 /* EventOrganiserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECCE2904816400114A89 /* EventOrganiserView.swift */; };
+		8012ECD12904880E00114A89 /* BuyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECD02904880E00114A89 /* BuyButton.swift */; };
+		8012ECD329048F5D00114A89 /* ForYouMarketplaceSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECD229048F5D00114A89 /* ForYouMarketplaceSlider.swift */; };
+		8012ECD52904F21100114A89 /* MiddleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECD42904F21100114A89 /* MiddleButton.swift */; };
+		8012ECD9290511B300114A89 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECD8290511B300114A89 /* RewardsView.swift */; };
+		8012ECDB29051C4E00114A89 /* WalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECDA29051C4E00114A89 /* WalletCell.swift */; };
+		8012ECDD290520FD00114A89 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECDC290520FD00114A89 /* QRCodeViewController.swift */; };
+		8012ECDF2905322E00114A89 /* QrCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECDE2905322E00114A89 /* QrCodeGenerator.swift */; };
+		8012ECE129053E8200114A89 /* ConfirmBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECE029053E8200114A89 /* ConfirmBuyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +70,27 @@
 		8012EC90290404FD00114A89 /* PolygonHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolygonHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8012EC94290404FD00114A89 /* PolygonHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonHackathonUITests.swift; sourceTree = "<group>"; };
 		8012EC96290404FD00114A89 /* PolygonHackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonHackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8012ECA42904056F00114A89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8012ECA72904081200114A89 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8012ECAA2904157100114A89 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8012ECAC290415EC00114A89 /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		8012ECAE290415F400114A89 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		8012ECB42904209100114A89 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		8012ECB6290420BC00114A89 /* UpcomingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingCell.swift; sourceTree = "<group>"; };
+		8012ECB8290427BD00114A89 /* FeaturedEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedEventView.swift; sourceTree = "<group>"; };
+		8012ECBA2904349E00114A89 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		8012ECBD290437DC00114A89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8012ECC229043B5D00114A89 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		8012ECC929046A4600114A89 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		8012ECCE2904816400114A89 /* EventOrganiserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventOrganiserView.swift; sourceTree = "<group>"; };
+		8012ECD02904880E00114A89 /* BuyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyButton.swift; sourceTree = "<group>"; };
+		8012ECD229048F5D00114A89 /* ForYouMarketplaceSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouMarketplaceSlider.swift; sourceTree = "<group>"; };
+		8012ECD42904F21100114A89 /* MiddleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleButton.swift; sourceTree = "<group>"; };
+		8012ECD8290511B300114A89 /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		8012ECDA29051C4E00114A89 /* WalletCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCell.swift; sourceTree = "<group>"; };
+		8012ECDC290520FD00114A89 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		8012ECDE2905322E00114A89 /* QrCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeGenerator.swift; sourceTree = "<group>"; };
+		8012ECE029053E8200114A89 /* ConfirmBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBuyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +141,14 @@
 		8012EC72290404F900114A89 /* PolygonHackathon */ = {
 			isa = PBXGroup;
 			children = (
-				8012EC73290404F900114A89 /* AppDelegate.swift */,
-				8012EC75290404F900114A89 /* SceneDelegate.swift */,
-				8012EC77290404F900114A89 /* ViewController.swift */,
-				8012EC79290404F900114A89 /* Main.storyboard */,
-				8012EC7C290404FC00114A89 /* Assets.xcassets */,
-				8012EC7E290404FC00114A89 /* LaunchScreen.storyboard */,
+				8012ECA62904080100114A89 /* Extensions */,
+				8012ECA32904054F00114A89 /* Core */,
 				8012EC81290404FC00114A89 /* Info.plist */,
+				8012ECBC290437CD00114A89 /* Login */,
+				8012ECA92904156400114A89 /* TabBar */,
+				8012ECB0290415F700114A89 /* Home */,
+				8012ECB22904160100114A89 /* Tickets */,
+				8012ECB32904160500114A89 /* Account */,
 			);
 			path = PolygonHackathon;
 			sourceTree = "<group>";
@@ -127,6 +170,82 @@
 			path = PolygonHackathonUITests;
 			sourceTree = "<group>";
 		};
+		8012ECA32904054F00114A89 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8012EC73290404F900114A89 /* AppDelegate.swift */,
+				8012EC75290404F900114A89 /* SceneDelegate.swift */,
+				8012EC77290404F900114A89 /* ViewController.swift */,
+				8012EC79290404F900114A89 /* Main.storyboard */,
+				8012EC7C290404FC00114A89 /* Assets.xcassets */,
+				8012EC7E290404FC00114A89 /* LaunchScreen.storyboard */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8012ECA62904080100114A89 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8012ECA72904081200114A89 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8012ECA92904156400114A89 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8012ECAA2904157100114A89 /* TabBarController.swift */,
+				8012ECD42904F21100114A89 /* MiddleButton.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8012ECB0290415F700114A89 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8012ECA42904056F00114A89 /* HomeViewController.swift */,
+				8012ECC229043B5D00114A89 /* TopBarView.swift */,
+				8012ECD229048F5D00114A89 /* ForYouMarketplaceSlider.swift */,
+				8012ECB8290427BD00114A89 /* FeaturedEventView.swift */,
+				8012ECBA2904349E00114A89 /* EventCell.swift */,
+				8012ECB6290420BC00114A89 /* UpcomingCell.swift */,
+				8012ECB42904209100114A89 /* EventViewController.swift */,
+				8012ECE029053E8200114A89 /* ConfirmBuyViewController.swift */,
+				8012ECC929046A4600114A89 /* InfoView.swift */,
+				8012ECCE2904816400114A89 /* EventOrganiserView.swift */,
+				8012ECD02904880E00114A89 /* BuyButton.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8012ECB22904160100114A89 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				8012ECAC290415EC00114A89 /* TicketsViewController.swift */,
+				8012ECDC290520FD00114A89 /* QRCodeViewController.swift */,
+				8012ECDE2905322E00114A89 /* QrCodeGenerator.swift */,
+				8012ECDA29051C4E00114A89 /* WalletCell.swift */,
+				8012ECD8290511B300114A89 /* RewardsView.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		8012ECB32904160500114A89 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				8012ECAE290415F400114A89 /* AccountViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		8012ECBC290437CD00114A89 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8012ECBD290437DC00114A89 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +262,8 @@
 			dependencies = (
 			);
 			name = PolygonHackathon;
+			packageProductDependencies = (
+			);
 			productName = PolygonHackathon;
 			productReference = 8012EC70290404F900114A89 /* PolygonHackathon.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +336,8 @@
 				Base,
 			);
 			mainGroup = 8012EC67290404F800114A89;
+			packageReferences = (
+			);
 			productRefGroup = 8012EC71290404F900114A89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +381,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8012ECA82904081200114A89 /* Extensions.swift in Sources */,
+				8012ECAD290415EC00114A89 /* TicketsViewController.swift in Sources */,
+				8012ECDD290520FD00114A89 /* QRCodeViewController.swift in Sources */,
+				8012ECAF290415F400114A89 /* AccountViewController.swift in Sources */,
+				8012ECD9290511B300114A89 /* RewardsView.swift in Sources */,
 				8012EC78290404F900114A89 /* ViewController.swift in Sources */,
+				8012ECBB2904349E00114A89 /* EventCell.swift in Sources */,
+				8012ECD52904F21100114A89 /* MiddleButton.swift in Sources */,
+				8012ECD12904880E00114A89 /* BuyButton.swift in Sources */,
+				8012ECB9290427BD00114A89 /* FeaturedEventView.swift in Sources */,
+				8012ECCA29046A4600114A89 /* InfoView.swift in Sources */,
 				8012EC74290404F900114A89 /* AppDelegate.swift in Sources */,
+				8012ECDF2905322E00114A89 /* QrCodeGenerator.swift in Sources */,
+				8012ECC329043B5D00114A89 /* TopBarView.swift in Sources */,
+				8012ECD329048F5D00114A89 /* ForYouMarketplaceSlider.swift in Sources */,
+				8012ECB7290420BC00114A89 /* UpcomingCell.swift in Sources */,
+				8012ECCF2904816400114A89 /* EventOrganiserView.swift in Sources */,
+				8012ECB52904209100114A89 /* EventViewController.swift in Sources */,
+				8012ECAB2904157100114A89 /* TabBarController.swift in Sources */,
+				8012ECDB29051C4E00114A89 /* WalletCell.swift in Sources */,
 				8012EC76290404F900114A89 /* SceneDelegate.swift in Sources */,
+				8012ECBE290437DC00114A89 /* LoginViewController.swift in Sources */,
+				8012ECE129053E8200114A89 /* ConfirmBuyViewController.swift in Sources */,
+				8012ECA52904056F00114A89 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +587,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +616,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
