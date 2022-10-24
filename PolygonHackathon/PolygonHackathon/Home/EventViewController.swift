@@ -141,6 +141,7 @@ class EventViewController: UIViewController {
     @objc func buyticket() {
         self.showSpinner(onView: view)
         let confirmBuy = ConfirmBuyViewController()
+        confirmBuy.delegate = self
         //getAddress { address in
            // print(address)
             
@@ -180,5 +181,14 @@ class EventViewController: UIViewController {
                 }
         }
         task.resume()
+    }
+}
+
+extension EventViewController: dismissDelegate {
+    
+    func didDismiss() {
+        self.navigationController?.popViewController(animated: true)
+        self.tabBarController?.selectedIndex = 1
+        self.tabBarController?.tabBar.isHidden = false
     }
 }

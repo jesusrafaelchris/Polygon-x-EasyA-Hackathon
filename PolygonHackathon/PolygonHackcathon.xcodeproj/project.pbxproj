@@ -37,6 +37,7 @@
 		8012ECDD290520FD00114A89 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECDC290520FD00114A89 /* QRCodeViewController.swift */; };
 		8012ECDF2905322E00114A89 /* QrCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECDE2905322E00114A89 /* QrCodeGenerator.swift */; };
 		8012ECE129053E8200114A89 /* ConfirmBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECE029053E8200114A89 /* ConfirmBuyViewController.swift */; };
+		8012ECE329054DC400114A89 /* whiteandcolourtext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012ECE229054DC400114A89 /* whiteandcolourtext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		8012ECDC290520FD00114A89 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		8012ECDE2905322E00114A89 /* QrCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeGenerator.swift; sourceTree = "<group>"; };
 		8012ECE029053E8200114A89 /* ConfirmBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBuyViewController.swift; sourceTree = "<group>"; };
+		8012ECE229054DC400114A89 /* whiteandcolourtext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiteandcolourtext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 				8012ECB6290420BC00114A89 /* UpcomingCell.swift */,
 				8012ECB42904209100114A89 /* EventViewController.swift */,
 				8012ECE029053E8200114A89 /* ConfirmBuyViewController.swift */,
+				8012ECE229054DC400114A89 /* whiteandcolourtext.swift */,
 				8012ECC929046A4600114A89 /* InfoView.swift */,
 				8012ECCE2904816400114A89 /* EventOrganiserView.swift */,
 				8012ECD02904880E00114A89 /* BuyButton.swift */,
@@ -327,7 +330,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8012EC6B290404F800114A89 /* Build configuration list for PBXProject "PolygonHackathon" */;
+			buildConfigurationList = 8012EC6B290404F800114A89 /* Build configuration list for PBXProject "PolygonHackcathon" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -390,6 +393,7 @@
 				8012ECBB2904349E00114A89 /* EventCell.swift in Sources */,
 				8012ECD52904F21100114A89 /* MiddleButton.swift in Sources */,
 				8012ECD12904880E00114A89 /* BuyButton.swift in Sources */,
+				8012ECE329054DC400114A89 /* whiteandcolourtext.swift in Sources */,
 				8012ECB9290427BD00114A89 /* FeaturedEventView.swift in Sources */,
 				8012ECCA29046A4600114A89 /* InfoView.swift in Sources */,
 				8012EC74290404F900114A89 /* AppDelegate.swift in Sources */,
@@ -711,7 +715,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8012EC6B290404F800114A89 /* Build configuration list for PBXProject "PolygonHackathon" */ = {
+		8012EC6B290404F800114A89 /* Build configuration list for PBXProject "PolygonHackcathon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8012EC98290404FD00114A89 /* Debug */,

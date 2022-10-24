@@ -38,6 +38,7 @@ class WalletCell: UICollectionViewCell {
     lazy var QRButton: UIButton = {
         let button = UIButton()
         button.setsizedImage(symbol: "qrcode.viewfinder", size: 14, colour: .white)
+        button.isUserInteractionEnabled = false
         return button
     }()
     

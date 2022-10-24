@@ -42,6 +42,11 @@ class TicketsViewController: UIViewController {
         collectionview.dataSource = self
         return collectionview
     }()
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tabBarController?.tabBar.isHidden = false
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -33,13 +33,28 @@ class QRCodeViewController: UIViewController {
     
     lazy var imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "polygon")
         imageView.contentMode = .scaleAspectFit
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 0
         imageView.image = QRCodeGenerator.generateQRCode(from: "0xfe6bec470e13c474fbec1ba6a51c9920aafde6ab3fd674592258d2eacfa91983")
         imageView.translatesAutoresizingMaskIntoConstraints = false 
         return imageView
+    }()
+    
+    lazy var NFTimageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.image = UIImage(named: "NFT")
+        imageView.contentMode = .scaleAspectFit
+        imageView.layer.masksToBounds = true
+        imageView.layer.cornerRadius = 0
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        return imageView
+    }()
+    
+    lazy var nftLabel: UILabel = {
+        let text = UILabel()
+        text.layout(colour: .polygonPurple, size: 20, text: "PolygonXeasyA#075", bold: true)
+        return text
     }()
     
     override func viewDidLoad() {
@@ -59,6 +74,8 @@ class QRCodeViewController: UIViewController {
         view.addSubview(ticketsTitle)
         view.addSubview(infostackView)
         view.addSubview(imageView)
+        view.addSubview(NFTimageView)
+        view.addSubview(nftLabel)
         
         ticketsTitle.anchor(top: view.topAnchor, paddingTop: 40, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 16, right: nil, paddingRight: 16, width: 0, height: 0)
         
@@ -66,5 +83,10 @@ class QRCodeViewController: UIViewController {
         
         imageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        
+        NFTimageView.anchor(top: imageView.bottomAnchor, paddingTop: 30, bottom: nil, paddingBottom: 0, left: imageView.leftAnchor, paddingLeft: 0, right: nil, paddingRight: 16, width: 50, height: 50)
+        
+        nftLabel.anchor(top: nil, paddingTop: 30, bottom: nil, paddingBottom: 0, left: NFTimageView.rightAnchor, paddingLeft: 16, right: nil, paddingRight: 16, width: 0, height: 0)
+        nftLabel.centerYAnchor.constraint(equalTo: NFTimageView.centerYAnchor).isActive = true
     }
 }
